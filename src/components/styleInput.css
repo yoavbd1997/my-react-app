@@ -1,0 +1,45 @@
+form:focus-within {
+    background: #e5e4e2;
+    background-size: cover;
+    color: black;
+    padding: 10px;
+  }
+
+.add {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#labelName, #labelGrade{
+    font-family: cursive;
+}
+
+.inputName, .inputGrade{
+    text-decoration: solid;
+    position: relative;
+    width: 120px;
+    padding: 5px;
+    font-size: large;
+    font-family: cursive;
+
+}
+
+label {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btnAdd, .btnClear{
+    margin-left: 10px;
+    border: 0;
+    color: black;
+    border-radius: 0.25rem;
+    background: #cccfd1;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: cursive;
+
+}

@@ -1,0 +1,81 @@
+.modal-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    color: rgb(168, 238, 238);
+}
+.modal{
+    /* border-radius: 5px; */
+    padding: 5rem;
+    background-color: rgb(77, 74, 74);
+    width: 25em;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.editLabel {
+    margin-left: 50px;
+}
+.nameEdit, .gradeEdit{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 2px solid #242323;
+    border: 0;
+    background-color: #e6dddd;
+    outline-offset: 3px;
+    padding: 10px 1rem;
+    transition: 0.25s;
+    font-family: cursive;
+    color: rgb(2, 43, 43);
+    font-size: 16px;
+    cursor: text;
+}
+
+.gradeEdit{
+    margin-top: 12px;
+}
+
+.btnV{
+    background-color: transparent;
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    font-size: 33px;
+    color: rgb(97, 247, 97);
+    cursor: pointer;
+    border: none;
+}
+.btnV:hover{
+    transform: translateY(-1px);
+}
+.btnX{
+    background-color: transparent;
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    font-size: 33px;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+.btnX:hover{
+    transform: translateY(-1px);
+}
+
+#h1Edit{
+    position: absolute;
+    top: 36%;
+    left: 49%;
+}

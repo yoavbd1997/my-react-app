@@ -1,0 +1,138 @@
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+th, td {
+    border: 1px solid rgb(145, 142, 142);
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+
+}
+
+th {
+    font-size: large;
+    font-weight: bold; /* Make table headers bold */
+    background-color: #f2f2f2; /* Add a background color for table headers */
+}
+
+td {
+    font-weight: bold;
+    font-size: large;
+    font-family: cursive;
+    position: relative;
+    align-items: center;
+}
+
+/* Set fixed width and height for table rows */
+tr {
+    width: 200px;
+    height: 60px;
+    
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+ 
+
+
+.edit{
+    width: 220px;
+}
+
+.btnDel, .btnEdit {
+    margin: 10px; 
+    padding: 2px; 
+    background-color: transparent; 
+    background-size: auto;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bolder;
+    font-size: 1.4rem;
+    border-radius: 0%;
+}
+
+.btnDel{
+    color: #f73c23;
+}
+.btnEdit{
+    color: #1d1d1d;
+}
+
+
+
+.lineUp,
+.lineDown {
+    background-color: transparent;
+    color: #1d1d1d;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    padding: 0; 
+}
+
+.lineUp {
+    display: block;
+    left: 7%;
+    top: 13%;
+}
+
+.lineDown {
+    display: block;
+    left: 7%;
+    top: 19%;
+}
+
+.lineUp:hover{
+    transform: translateY(-2px);
+}
+
+
+.lineDown:hover{
+    transform: translateY(2px);
+}
+
+.nameUp,
+.nameDown {
+    background-color: transparent;
+    color: #3800d1;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    position: absolute; /* Set the buttons to absolute position */
+    padding: 0;
+}
+
+.nameUp {
+    display: block;
+    left: 49%;
+    top: 4.5%;
+}
+
+.nameDown {
+    display: block;
+    left: 49%;
+    top: 6.5%;
+}
+
+.nameUp:hover,
+.nameDown:hover {
+    transform: translateY(-1px);
+}
+
